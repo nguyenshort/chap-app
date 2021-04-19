@@ -1,0 +1,29 @@
+type Messages {
+    _id: ID
+    room: Room
+    user: User!
+    image: Boolean
+    content: String!
+    createdAt: Float!
+}
+
+input inputGetMess {
+    roomID: Float!
+    next: Boolean!
+    offset: Int!
+    limit: Int!
+}
+
+input inputAddMess {
+    roomID: Float!
+    content: String!
+    image: Boolean!
+}
+
+type Query {
+    messages(input: inputGetMess): [Messages]
+}
+
+type Mutation {
+    addMessages(input: inputAddMess): Messages
+}
