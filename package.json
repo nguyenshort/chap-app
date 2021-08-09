@@ -15,7 +15,7 @@
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.3.5",
-    "ant-design-vue": "^1.7.4",
+    "ant-design-vue": "^1.7.7",
     "apollo-boost": "^0.4.9",
     "core-js": "^3.9.1",
     "graphql-tag": "^2.11.0",
