@@ -19,7 +19,7 @@
     "apollo-boost": "^0.4.9",
     "core-js": "^3.9.1",
     "graphql-tag": "^2.11.0",
-    "nuxt": "^2.15.3",
+    "nuxt": "^2.15.8",
     "vue-server-renderer": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
   },
